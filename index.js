@@ -11,4 +11,4 @@ function findMatching(drivers, string){ return drivers.filter(item => item.subst
  //function findMatching(drivers, string){ return drivers.filter(item => item.substring(0,2) == string.substring(0,2))}
 
 
-function matchName(drivers, string){return drivers.filter(function (x) {if (string === x.name.charAt(0)){return x}})}
+function matchName(drivers, string){return drivers.filter(function (x) {if (string === x.name){return x}})}
